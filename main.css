@@ -72,5 +72,14 @@ footer {
 
 
 
+@media (max-width: 768px) {
+    header nav a {
+        display: block;
+        margin: 10px 0;
+    }
 
+    .grid-container {
+        grid-template-columns: 1fr;
+    }
+}
 
