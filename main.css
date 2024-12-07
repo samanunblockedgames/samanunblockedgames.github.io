@@ -1,22 +1,73 @@
 body {
-    font-family: 'Lato', Arial, sans-serif;
+    font-family: 'Lato', sans-serif;
     margin: 0;
     padding: 0;
+    background-color: #f9f9f9;
 }
+
 header {
     background-color: #4CAF50;
-    padding: 20px;
+    color: white;
     text-align: center;
-    color: white;
+    padding: 20px;
 }
-nav a {
-    margin: 0 15px;
+
+header nav a {
+    color: white;
     text-decoration: none;
-    color: white;
+    margin: 0 10px;
+    font-weight: 700;
 }
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
 main {
     padding: 20px;
     text-align: center;
+}
+
+#games h2, #about h2 {
+    color: #333;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.grid-item {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    text-align: center;
+    transition: transform 0.2s;
+}
+
+.grid-item:hover {
+    transform: scale(1.05);
+}
+
+.grid-item img {
+    width: 100%;
+    height: auto;
+}
+
+.grid-item p {
+    margin: 10px 0;
+    font-weight: bold;
+    color: #555;
+}
+
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
 }
 
 
