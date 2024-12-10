@@ -5,9 +5,46 @@
 <body>
     <h1>
        
-           Hello! Welcome to Saman Unblocked Games!  Hopefully you enjoy it very much. It's still in development, but in the end, happy gaming.  Plus if a game is not working, contact us! One thing you need to watch out for is that when you click on a game, you have to refresh to play another one.</h1>
+           Hello! Welcome to Saman Unblocked Games!  Hopefully you enjoy it very much. It's still in development, but in the end, happy gaming.  Plus if a game is not working, contact us!</h1>
     <p><html>
+ <p><html>
  
+  <head>
+  </head>
+ 
+  <body>
+    <button>1 on 1 soccer</button>
+    <script>
+      var urlObj = new window.URL(window.location.href);
+      var url = "https://ubg98.github.io/1On1Soccer/";
+      if (url) {
+        var win;
+ 
+        document.querySelector('button').onclick = function() {
+          if (win) {
+            win.focus();
+          } else {
+            win = window.open();
+            win.document.body.style.margin = '0';
+            win.document.body.style.height = '100vh';
+            var iframe = win.document.createElement('iframe');
+            iframe.style.border = 'none';
+            iframe.style.width = '100%';
+            iframe.style.height = '100%';
+            iframe.style.margin = '0';
+            iframe.src = url;
+            win.document.body.appendChild(iframe);
+          }
+          document.querySelector('button').style.bacground = 'grey';
+          document.querySelector('button').innerHTML = "1 on 1 soccer";
+        };
+      }
+ 
+    </script>
+  </body>
+ 
+</html></p>
+
   <head>
   </head>
  
