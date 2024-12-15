@@ -23,7 +23,7 @@ body {
 #main-heading {
     text-align: center;
     font-size: 32px;
-    color: darkblue;
+    color: black;
     margin-bottom: 20px; 
 }
 
@@ -31,7 +31,7 @@ body {
 .about-text {
     text-align: center;
     font-size: 18px;
-    color: #555;
+    color: #000000;
     margin-bottom: 20px; 
     line-height: 1.5; 
 
