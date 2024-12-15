@@ -1,5 +1,7 @@
 body {
-    background-color: #f0f0f0; 
+    background-color: 
+background: #420570;
+background: linear-gradient(135deg, #420570, #7810A8); 
     margin: 0;
     padding: 0;
     font-family: 'Lato', sans-serif; 
