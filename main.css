@@ -69,3 +69,8 @@ body {
 button:hover {
     background-color: #0056b3; 
 }
+
+body {
+    max-width: 100%;
+    margin: 0 auto
+}
