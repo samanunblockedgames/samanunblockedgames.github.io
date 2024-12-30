@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
         <head>
-  <link rel="icon" type="image/x-icon" href="/ico_Screenshot_2024-11-04_8.16.35_PM-removebg-preview.ico">
+  <link rel="icon" type="image/x-icon" href="/MainLogo.ico">
    <link rel="stylesheet" href="main.css">
 </head>
-        <head>
+        
                 <meta charset="UTF-8">
                 <meta name="viewport" content="width=device-width, initial-scale=1.0">
                 <title>OvO Unblocked</title>
                 <link rel="stylesheet" href="main.css"> 
-            </head>
+            
             <body>
                     <h1>OvO</h1>
 
@@ -34,7 +34,7 @@
         var win;
  
         document.querySelector('button').onclick = function() {
-          if (win) {
+          if (win && !win.closed) {
             win.focus();
           } else {
             win = window.open();
@@ -49,7 +49,7 @@
             win.document.body.appendChild(iframe);
           }
           document.querySelector('button').style.bacground = 'grey';
-          document.querySelector('button').innerHTML = "Play Now";
+          
         };
       }
  
@@ -57,6 +57,7 @@
   </body>
  
 </html>
+    <p><a href="games.html">Back to Games</a></p>
     <p><a href="index.html">Back to Home</a></p>
 </body>
 </html>
