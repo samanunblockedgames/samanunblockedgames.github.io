@@ -108,19 +108,6 @@ button:hover {
     margin-bottom: 20px;
   }
 
-  footer {
-    background-color: linear-gradient(135deg, #420570, #7810A8);
-    color: white;
-    text-align: center; 
-    padding: 20px; 
-    position: fixed; 
-    bottom: 0; 
-    width: 100%; 
-  }
-  
-  footer p {
-    margin: 0; 
-  }
 
   .creator-text {
     text-align: center;
@@ -134,4 +121,8 @@ button:hover {
     font-size: 24px;
     color: white;
     margin-bottom: 20px; 
+  }
+
+  footer {
+    color: white;
   }
