@@ -80,11 +80,11 @@ button:hover {
   }
 
   a {
-    color: rgb(237, 242, 70); 
+    color: red; 
   }
   
   a:hover {
-    color: rgb(237, 242, 70); 
+    color: red; 
   }
 
   .paragraph-text {
