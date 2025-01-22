@@ -95,6 +95,14 @@ button:hover {
     line-height: 1.5;
     width: 85%;
   }
+.AboutCodingClub-text {
+    text-align: center;
+    font-size: 15px;
+    color: white;
+    margin-bottom: 20px; 
+    line-height: 1.5;
+    width: 85%;
+  }
 
   .worker1-text {
     text-align: center;
