@@ -144,3 +144,8 @@ button:hover {
   footer {
     color: white;
   }
+
+  .spacebar-clicker {
+    height: 105px;
+    width: 100%;
+  }
