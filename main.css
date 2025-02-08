@@ -149,3 +149,22 @@ button:hover {
     height: 105px;
     width: 100%;
   }
+
+  #searchbar {
+    width: 80%;
+    padding: 10px;
+    margin: 20px auto;
+    display: block;
+    border-radius: 5px;
+    font-size: 16px;
+    border: 1px solid
+  }
+
+  .AS-Studios-Comics {
+    text-align: center;
+    font-size: 15px;
+    color: white;
+    margin-bottom: 20px; 
+    line-height: 1.5;
+    width: 85%;
+  }
